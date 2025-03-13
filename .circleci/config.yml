@@ -640,7 +640,7 @@ jobs:
     environment:
       LANG: en_US.UTF-8
     docker:
-    - image: cimg/openjdk:21.0
+    - image: cimg/openjdk:21.0.6
   gradle-check-windows:
     steps:
     - checkout
@@ -678,7 +678,7 @@ jobs:
     environment:
       LANG: en_US.UTF-8
     docker:
-    - image: cimg/openjdk:21.0
+    - image: cimg/openjdk:21.0.6
   gradle-compatibility:
     steps:
     - checkout
@@ -692,7 +692,7 @@ jobs:
     environment:
       LANG: en_US.UTF-8
     docker:
-    - image: cimg/openjdk:21.0
+    - image: cimg/openjdk:21.0.6
   deploy-snapshot:
     steps:
     - checkout
@@ -709,7 +709,7 @@ jobs:
     environment:
       LANG: en_US.UTF-8
     docker:
-    - image: cimg/openjdk:21.0
+    - image: cimg/openjdk:21.0.6
   deploy-release:
     steps:
     - checkout
@@ -726,7 +726,7 @@ jobs:
     environment:
       LANG: en_US.UTF-8
     docker:
-    - image: cimg/openjdk:21.0
+    - image: cimg/openjdk:21.0.6
   github-release:
     steps:
     - attach_workspace:
