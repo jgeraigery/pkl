@@ -205,7 +205,7 @@ jobs:
       JAVA_HOME: /jdk
     resource_class: arm.xlarge
     docker:
-    - image: arm64v8/oraclelinux:8-slim
+    - image: arm64v8/oraclelinux:9-slim
   pkl-cli-linux-alpine-amd64-release:
     steps:
     - checkout
@@ -518,7 +518,7 @@ jobs:
       JAVA_HOME: /jdk
     resource_class: arm.xlarge
     docker:
-    - image: arm64v8/oraclelinux:8-slim
+    - image: arm64v8/oraclelinux:9-slim
   pkl-cli-linux-alpine-amd64-snapshot:
     steps:
     - checkout
