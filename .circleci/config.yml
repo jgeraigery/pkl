@@ -746,7 +746,7 @@ jobs:
             pkl-cli/build/executable/*
         name: Publish release on GitHub
     docker:
-    - image: maniator/gh:v2.40.1
+    - image: maniator/gh:v2.68.1
   trigger-docsite-build:
     steps:
     - run:
