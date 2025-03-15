@@ -113,7 +113,7 @@ jobs:
       JAVA_HOME: /jdk
     resource_class: xlarge
     docker:
-    - image: oraclelinux:8-slim
+    - image: oraclelinux:9-slim
   pkl-cli-macOS-aarch64-release:
     steps:
     - checkout
@@ -282,7 +282,7 @@ jobs:
       JAVA_HOME: /jdk
     resource_class: xlarge
     docker:
-    - image: oraclelinux:8-slim
+    - image: oraclelinux:9-slim
   pkl-cli-windows-amd64-release:
     steps:
     - checkout
@@ -426,7 +426,7 @@ jobs:
       JAVA_HOME: /jdk
     resource_class: xlarge
     docker:
-    - image: oraclelinux:8-slim
+    - image: oraclelinux:9-slim
   pkl-cli-macOS-aarch64-snapshot:
     steps:
     - checkout
@@ -595,7 +595,7 @@ jobs:
       JAVA_HOME: /jdk
     resource_class: xlarge
     docker:
-    - image: oraclelinux:8-slim
+    - image: oraclelinux:9-slim
   pkl-cli-windows-amd64-snapshot:
     steps:
     - checkout
